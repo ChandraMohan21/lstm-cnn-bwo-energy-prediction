@@ -1,33 +1,37 @@
-CNN-LSTM-BWO Energy Prediction
+# CNN-LSTM-BWO Energy Prediction
 
-Predict building energy consumption using a hybrid CNN-LSTM model optimized with Beluga Whale Optimization (BWO).
+Predict building energy consumption using a hybrid **CNN-LSTM model** optimized with **Beluga Whale Optimization (BWO)**.
 
-Overview
+---
 
-CNN: Extracts patterns from time-series energy data
+## Overview
 
-LSTM: Captures long-term dependencies
+- **CNN:** Extracts patterns from time-series energy data  
+- **LSTM:** Captures long-term dependencies  
+- **BWO:** Optimizes model parameters for better performance  
 
-BWO: Optimizes model parameters for better performance
+This repo includes **notebooks, source code, results, and a dataset** to reproduce experiments.  
 
-This repo includes notebooks, source code, results, and a dataset to reproduce experiments.
+**Dataset:** Available via [Google Drive](#)  <!-- Replace # with your dataset link -->
 
-Dataset : Google Drive
+---
 
-Usage
+## Usage
 
-Open notebooks/cnn_lstm_bwo.ipynb in Colab or Jupyter Notebook
+1. Open `notebooks/cnn_lstm_bwo.ipynb` in **Colab or Jupyter Notebook**  
+2. Load the dataset from `data/`  
+3. Train, test, and visualize predictions  
 
-Load the dataset from data/
+---
 
-Train, test, and visualize predictions
+## Directory
+1. notebooks/ 
+2. src/ 
+3. data/
+4. results/ 
 
-Directory
-notebooks/   # Colab notebooks
-src/         # Python scripts
-data/        #  datasets
-results/     # Model outputs
+---
 
-License
+## License
 
 MIT License
